@@ -59,8 +59,17 @@ Installer les dépendances :
 
 ``` bash
 pip install -r requirements.txt
+
 ```
 
+------------------------------------------------------------------------
+
+Demarrer le server pour lancer l'api :
+``` bash
+uvicorn api.main:app --reload
+
+```
+ensuite acceder à la page : http://127.0.0.1:8000/docs pour test l'endpoint
 ------------------------------------------------------------------------
 
 ## Pipeline Machine Learning
