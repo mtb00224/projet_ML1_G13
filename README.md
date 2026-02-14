@@ -52,13 +52,25 @@ Créer un environnement virtuel :
 
 ``` bash
 python3 -m venv .venv
-source venv/bin/activate (sur windows : .venv\Script\activate)
+source venv/bin/activate (sur windows : .venv\Scripts\activate)
 ```
 
 Installer les dépendances :
 
 ``` bash
 pip install -r requirements.txt
+
+```
+
+------------------------------------------------------------------------
+
+Creer un dossier nommé : "model" à la racine du projet
+
+------------------------------------------------------------------------
+Lancer les tests
+
+``` bash
+python -m tests.tests
 
 ```
 
